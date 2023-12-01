@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Floats</title>
+    <style>
+        header{
+            text-align: center;
+            color: rgb(65, 60, 60);
+            text-transform: uppercase;
+            background: linear-gradient(to bottom, rgba(241, 106, 106,0.6),rgb(235, 171, 160,0.8));
+            padding: 15px;
+        }
+        .caja{
+            display: inline-block;
+            border: 2px solid #443636;
+            padding: 5px;
+            color: aliceblue;
+            width: 60px;
+            text-align: center;
+            font-size: 30px;
+            background-color: rgb(43, 36, 35);
+            margin: 3px;
+            border-radius: 5px;
+            border: 2px solid rgba(48, 212, 92, 0.6);
+        }
+        section{
+            padding: 5px;
+            text-align: center;
+        }
+        img{
+            float: left;
+            width: 100px;
+            border-radius: 10px;
+            box-shadow: 0 0 8px 2px rgba(86, 173, 83, 0.9);
+            margin-right: 10px;
+            margin-top: 20px;
+        }
+        section p{
+            text-align: justify;
+        }
+        code{
+            background-color: rgb(214, 208, 208);
+            color: rgb(49, 131, 64);
+            padding: 10px;
+            border-radius: 5px;
+            font-weight: bold;
+            text-align: start;
+        }
+        .derecha{
+            float: right;
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>FLOATs</h1>
+        <hr>
+    </header>
+    <main>
+        <fieldset>
+            <legend>Float</legend>
+            <section>
+                <div class="caja">1</div>
+                <div class="caja">2</div>
+                <div class="caja">3</div>
+                <div class="caja">4</div>
+                <div class="caja">5</div>
+                <div class="caja">6</div>
+                <div class="caja">7</div>
+                <div class="caja">8</div>
+                <div class="caja">9</div>
+                <div class="caja">10</div>
+                <p>Si no quieres que floten los elementos aplica:
+                </p>
+                <pre><code> clear: both; </code></pre>
+                
+
+            </section>
+            <section>
+                <img src="https://i0.wp.com/imgs.hipertextual.com/wp-content/uploads/2015/11/albert-einstein-retrato-scaled.jpg?fit=1200%2C930&quality=50&strip=all&ssl=1" alt="Albert">
+                <img class="derecha" src="https://i.pinimg.com/originals/bc/ec/5f/bcec5f20fefe7fbb689eb3ce216c6637.jpg" alt="frase">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque eaque et consectetur suscipit harum impedit excepturi magnam ipsum, porro tempora numquam laudantium nisi corporis. Harum repellat accusamus quia aut iusto.
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non tenetur laudantium hic autem recusandae explicabo ipsa! Mollitia praesentium totam doloremque accusantium vitae natus repellendus corrupti dolorum. Ipsa accusamus quam omni. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam, voluptatum aut pariatur, vel vero ut nemo accusantium dolorum, consequatur accusamus animi velit odio alias ipsam nostrum earum veniam vitae sit?
+               </p>
+               
+                
+            </section>
+            </fieldset>
+
+    </main>
+</body>
+</html>

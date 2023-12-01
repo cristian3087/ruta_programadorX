@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendiendo Disposiciones</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        header{
+            text-align: center;
+            color: rgb(65, 60, 60);
+            text-transform: uppercase;
+            background: linear-gradient(to bottom, rgba(241, 106, 106,0.6),rgb(235, 171, 160,0.8));
+            padding: 15px;
+        }
+        header h1{
+            border-bottom: 2px solid #ccc;
+        }
+        main{
+            padding: 10px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        h3,p{
+            padding: 5px;
+        }
+        section{
+            margin-top: 10px;
+            /*border: 2px solid black;*/
+        }
+        .caja{
+            display: inline-block;
+            border: 2px solid #443636;
+            padding: 5px;
+            color: aliceblue;
+            width: 80px;
+            text-align: center;
+            font-size: 30px;
+            background-color: tomato;
+            margin: 3px;
+            border-radius: 5px;
+        }
+        .abso{
+            position: absolute; 
+            /*Si esta dentro de otro elemento le permite llevarlo al frente del elemento*/
+            z-index: 100;
+            top:180px;
+            left: 50%;
+            background:rgb(238, 226, 59);
+            color: tomato;
+        }
+        .rela{
+            position: relative;
+            bottom: 30px;
+            left: 50%;
+            color:black;
+            background-color: aqua;
+            
+        }
+        .zind{
+            position:fixed;
+            right: 8%;
+            bottom: 5%;
+            background-color: rgba(241, 227, 106, 0.9);
+            color:blue;
+            z-index: 1;
+            height: 60px;
+            width: 60px;
+            border-radius: 50%;
+            border: none;
+            box-shadow: 1px 1px 15px 1px red;
+            text-align: center;
+        }
+        .zind:hover{
+            border: 2px solid black;
+            cursor: pointer;
+
+        }
+        .cuatro{
+            position: relative;
+        }
+        .flotando{
+            display: fixed;
+            background-color: #443636;
+            color: white;
+        }
+        div{
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Disposiciones</h1>  
+    </header>
+    <main>
+       <h3> Position:</h3>
+       <p>Permite socionar los elementos</p>
+       <fieldset>
+        <legend>Posiciones</legend>
+        <section>
+            <div class="caja">1</div>
+            <div class="caja">2</div>
+            <div class="caja rela">3
+            </div>
+            <div class="caja cuatro">4
+                <div class="caja zind">z</div>
+            </div>
+            <div class="caja">5</div>
+            <div class="caja">6</div>
+            <div class="caja">7</div>
+            <div class="caja">8</div>
+            <div class="caja">9</div>
+            <div class="caja flotando">10</div>   
+            <div class="caja">1P</div>
+            <div class="caja">2P</div>
+            <div class="caja">3P</div>
+            <div class="caja">4P</div>
+            <div class="caja">5P</div>
+            <div class="caja">6P</div>
+            <div class="caja">7P</div>
+            <div class="caja">8P</div>
+            <div class="caja">9P</div>
+            <div class="caja">10P</div>
+            <div class="caja">11P</div>
+            <div class="caja">12P</div>
+            <div class="caja">13P</div>
+            <div class="caja">14P</div>
+            <div class="caja">15P</div>
+            <div class="caja">16P</div>
+            <div class="caja">17P</div>
+            <div class="caja">18P</div>
+            <div class="caja">19P</div>
+            <div class="caja">20P</div>
+            <div class="caja">21P</div>
+            <div class="caja">22P</div>
+            <div class="caja">23P</div>
+            <div class="caja">24P</div>
+            <div class="caja">25P</div>
+            <div class="caja">26P</div>
+            <div class="caja">27P</div>
+            <div class="caja">28P</div>
+            <div class="caja">29P</div>
+            <div class="caja">30P</div>
+            <div class="caja">31P</div>
+            <div class="caja">32P</div>
+            <div class="caja">33P</div>
+            <div class="caja">34P</div>
+            <div class="caja">35P</div>
+            <div class="caja">36P</div>
+            <div class="caja">37P</div>
+            <div class="caja">38P</div>
+            <div class="caja">39P</div>
+            <div class="caja">40P</div>
+            <div class="caja">41P</div>
+            <div class="caja">42P</div>
+            <div class="caja">43P</div>
+            <div class="caja">44P</div>
+            <div class="caja">45P</div>
+            <div class="caja">46P</div>
+            <div class="caja">47P</div>
+            <div class="caja">48P</div>
+            <div class="caja">49P</div>
+            <div class="caja">50P</div>
+            <div class="caja">51P</div>
+            <div class="caja">52P</div>
+            <div class="caja">53P</div>
+            <div class="caja">54P</div>
+            <div class="caja">55P</div>
+            <div class="caja">56P</div>
+            <div class="caja">57P</div>
+            <div class="caja">58P</div>
+            <div class="caja">59P</div>
+            <div class="caja">60P</div>
+            <div class="caja">61P</div>
+            <div class="caja">62P</div>
+            <div class="caja">63P</div>
+            <div class="caja">64P</div>
+            <div class="caja">65P</div>
+            <div class="caja">66P</div>
+            <div class="caja">67P</div>
+            <div class="caja">68P</div>
+            <div class="caja">69P</div>
+            <div class="caja">70P</div>
+            <div class="caja">71P</div>
+            <div class="caja">72P</div>
+            <div class="caja">73P</div>
+            <div class="caja">74P</div>
+            <div class="caja">75P</div>
+            <div class="caja">76P</div>
+            <div class="caja">77P</div>
+            <div class="caja">78P</div>
+            <div class="caja">79P</div>
+            <div class="caja">80P</div>
+            <div class="caja">81P</div>
+            <div class="caja">82P</div>
+            <div class="caja">83P</div>
+            <div class="caja">84P</div>
+            <div class="caja">85P</div>
+            <div class="caja">86P</div>
+            <div class="caja">87P</div>
+            <div class="caja">88P</div>
+            <div class="caja">89P</div>
+            <div class="caja">90P</div>
+            <div class="caja">91P</div>
+            <div class="caja">92P</div>
+            <div class="caja">93P</div>
+            <div class="caja">94P</div>
+            <div class="caja">95P</div>
+            <div class="caja">96P</div>
+            <div class="caja">97P</div>
+            <div class="caja">98P</div>
+            <div class="caja">99P</div>
+            <div class="caja">100P</div>   
+       </section>
+       </fieldset>
+       
+    </main>
+</body>
+</html>
