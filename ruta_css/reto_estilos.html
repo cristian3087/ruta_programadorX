@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deportes</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: 200;
+        }
+        :root {
+            --color-primario: #3498db; /* Azul */
+            --color-secundario: #2ecc71; /* Verde */
+            --color-fondo: #ecf0f1; /* Gris claro */
+            --color-texto: #34495e; /* Gris oscuro */
+            --color-destacado: #e74c3c; /* Rojo */
+          }
+        body{
+            background-color: rgb(211, 206, 206);
+        }
+        header{
+            background-image:url('https://a-static.besthdwallpaper.com/american-football-illuminated-stadium-image-wallpaper-3200x2400-95699_29.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 20vh;
+            width: 100%;       
+            text-align: center;
+            color: white;
+        }  
+        header div{
+            background-color: rgba(20, 20, 20, 0.6);
+            height: 100%;
+        }
+        .title{
+            padding-top: 3%;
+            padding-bottom: 5px;
+           
+        }
+
+        .intro{
+            margin-top: 5%;
+            text-align: center;
+        }
+        .intro img{
+            box-shadow: 0 0 1px 5px rgb(66, 62, 62);    
+            border-radius: 5px;
+        }
+        .sub-title{
+            padding-top: 2%;
+            padding-bottom: 1%;
+            font-weight: bold;
+        }
+        .description{
+        width: 70%;
+        text-align: justify;
+        margin: 0 auto;
+        padding: 6px;
+        }
+        .fixed-foot {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background-color: rgba(20, 20, 20,0.9); 
+        color: #fff; 
+        padding: 10px;
+        text-align: center;
+        height: 5vh;
+          }
+        a{
+            color: var(--color-primario);
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <h1 class="title">Landing Page de Deportes</h1>
+            <strong>Encuentra todo lo que necesitas para mantenerte activo!</strong>
+        </div>
+    </header>
+    <main>
+        <section class="intro">
+                <img src="https://lamenteesmaravillosa.com/wp-content/uploads/2018/06/ninos-jugando-futbol.jpg" alt="Niños jugando">
+                <h3 class="sub-title">Deporte 1</h3>
+                <p class="description">Parece que hubo un error tipográfico en tu pregunta. Supongo que te refieres a "fútbol". El fútbol es un deporte de equipo jugado entre dos equipos de once jugadores cada uno. Es el deporte más popular del mundo y se juega en casi todos los países. El objetivo del juego es marcar más goles que el equipo oponente al colocar la pelota en la portería del equipo contrario.
+
+                    El fútbol se juega en un campo rectangular con una portería en cada extremo. Los jugadores utilizan sus pies (y ocasionalmente otras partes del cuerpo, excepto las manos y los brazos) para controlar y pasar la pelota, y el equipo que marque más goles al final del tiempo reglamentario gana el partido.
+                    
+                    El fútbol tiene una base de seguidores apasionados en todo el mundo y se celebra a nivel local, nacional e internacional. Las competiciones más destacadas incluyen la Copa del Mundo de la FIFA, la Liga de Campeones de la UEFA y las ligas nacionales en muchos países.</p>
+                    <a href="#">Ver más...</a>
+
+        </section>
+
+        <footer class="fixed-foot">
+            <!-- Contenido del footer -->
+            <p>© 2023 Mi Sitio Web</p>
+        </footer>
+    </main>
+</body>
+</html>

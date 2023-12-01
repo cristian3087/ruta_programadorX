@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color</title>
+    <style>
+        :root {
+            --color-primario: #3498db; /* Azul */
+            --color-secundario: #2ecc71; /* Verde */
+            --color-fondo: #ecf0f1; /* Gris claro */
+            --color-texto: #34495e; /* Gris oscuro */
+            --color-destacado: #e74c3c; /* Rojo */
+          }
+          body {
+            /*background-color: var(--color-fondo);*/
+            background-image: url('https://loremflickr.com/1280/768/paris,girl/all');
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: var(--color-texto);
+          }
+          
+          a {
+            color: var(--color-primario);
+          }
+          
+          a:hover {
+            color: var(--color-destacado);
+          }
+          
+          .button {
+            background-color: var(--color-primario);
+            color: #fff;
+          }
+          
+          .button:hover {
+            background-color: var(--color-destacado);
+          }
+          
+          .card {
+            border-radius: 7px;
+            margin: 2%;
+            padding: 2%;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            opacity: 0.8;
+            
+          }
+          
+          .header {
+            background-color: var(--color-primario);
+            color: #fff;
+          }
+          
+          .footer {
+            background-color: var(--color-primario);
+            color: #fff;
+          }
+    </style>
+</head>
+<body>
+    <header> <h1>COLORES</h1></header>
+    <main>
+        <button class="button">!Click me!</button>
+        <div class="card">
+            <b>Titulo</b>
+            <p>Contenido de la card</p>
+
+        </div>
+    </main>
+</body>
+</html>
